@@ -1,5 +1,4 @@
 FROM centos:6
-MAINTAINER Takayuki Miwa <i@tkyk.name>
 
 RUN rpm -ivh http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
 RUN rpm -ivh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
