@@ -1,7 +1,0 @@
-web:
-  build: .
-  ports:
-    - "8014:80"
-  volumes:
-    - ../:/var/www/html
-    - ./httpd:/etc/httpd/conf
