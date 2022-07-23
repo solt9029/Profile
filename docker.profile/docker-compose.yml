@@ -1,7 +1,8 @@
-web:
-  build: .
-  ports:
-    - "8014:80"
-  volumes:
-    - ../:/var/www/html
-    - ./httpd:/etc/httpd/conf
+services:
+  web:
+    build: .
+    ports:
+      - "8014:80"
+    volumes:
+      - ../:/usr/local/apache2/htdocs/
+      - ./httpd:/etc/httpd/conf
